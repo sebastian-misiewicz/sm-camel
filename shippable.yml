@@ -4,5 +4,4 @@ jdk: oraclejdk7
 
 # pwd = /home/shippable/workspace/src/github.com/sebastian-misiewicz/sm-camel
 script:
-	- cd sm-camel-base
-	- mvn clean install
+	- mvn clean install -f sm-camel-base/pom.xml
