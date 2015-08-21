@@ -1,2 +1,6 @@
 # language setting
 language: java
+jdk: oraclejdk7
+
+script:
+	- /sm-camel-base/mvn clean install
